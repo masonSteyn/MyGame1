@@ -11,7 +11,7 @@ function setup() {
   engine = Engine.create()
   world = engine.world
   //playing char
-  pc = createSprite(50, height - 120)
+  pc = createSprite(50, height - 120,50,50)
   
   pc.scale = 4
   platformGroup = new Group ()
